@@ -1,1 +1,29 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+}
+.container .esquerdo {
+  width: 50%;
+  background: blueviolet;
+}
+.container .esquerdo .texto {
+  margin: 40% 0 0 0;
+  text-align: center;
+  font-size: 10rem;
+  color: aqua;
+}
+.container .direito {
+  width: 50%;
+  background: aqua;
+}
+.container .direito .texto {
+  margin: 40% 0 0 0;
+  text-align: center;
+  font-size: 10rem;
+  color: blueviolet;
+}/*# sourceMappingURL=style.css.map */
